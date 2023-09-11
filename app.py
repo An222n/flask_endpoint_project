@@ -17,7 +17,7 @@ def api():
     current_day = datetime.utcnow().strftime('%A')  # E.g., 'Monday'
     utc_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')  # E.g., '2023-08-24T14:21:23Z'
 
-    # Construct the response
+    # Construct the GET response
     response = {
         "slack_name": an222n,
         "current_day": current_day,
