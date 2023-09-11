@@ -19,12 +19,12 @@ def api():
 
     # Construct the response
     response = {
-        "slack_name": slack_name,
+        "slack_name": an222n,
         "current_day": current_day,
         "utc_time": utc_time,
         "track": track,
-        "github_file_url": "https://github.com/your_username/repo_name/blob/main/app.py",  # Replace 'your_username' and 'repo_name' with appropriate values
-        "github_repo_url": "https://github.com/your_username/repo_name",  # Replace 'your_username' and 'repo_name' with appropriate values
+        "github_file_url": "https://github.com/An222n/flask_endpoint_project/app.py.git",
+        "github_repo_url": "https://github.com/An222n/flask_endpoint_project.git",
         "status_code": 200
     }
     
